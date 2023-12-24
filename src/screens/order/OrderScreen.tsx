@@ -95,12 +95,8 @@ const OrderScreen = (props: BaseNavigationProps<MainParamList>) => {
         <ButtonText
           style={styles.buttonOrder}
           backgroundColor={colors.primary}
-          titleColor={colors.white}
-          title={'Order'}
-        />
-        <ButtonText
           onPress={onAddNew}
-          style={styles.buttonAddNew}
+          titleColor={colors.white}
           title={'Add new'}
         />
       </View>
