@@ -1,4 +1,4 @@
-/ best desing in
+// best desing in
 // iphone 6 (w:375)
 // android (w:420)
 import {Dimensions, Platform, StatusBar} from 'react-native';

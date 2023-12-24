@@ -1,4 +1,3 @@
-import {useTheme} from 'configs/ChangeTheme';
 import Text from 'elements/Text';
 import {FormikErrors, FormikTouched, FormikValues} from 'formik';
 import React, {Dispatch, SetStateAction} from 'react';
@@ -81,7 +80,6 @@ export default ({
     lineHeight = 24;
   }
   let height;
-  const {theme} = useTheme();
   let errorName = _.get(errors, name || '');
   let touchedName = _.get(touched, name || '');
   return (

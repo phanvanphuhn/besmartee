@@ -1,4 +1,5 @@
 import Routes from 'configs/Routes';
+import {OrderProps} from 'RootView';
 
 export interface MainParamList extends Record<string, object | undefined> {
   [Routes.OrderScreen]: OrderParams;
@@ -7,5 +8,7 @@ export interface MainParamList extends Record<string, object | undefined> {
 }
 
 interface OrderParams {}
-interface OrderDetailParams {}
+interface OrderDetailParams {
+  order: OrderProps;
+}
 interface CreateOrderParams {}

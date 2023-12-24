@@ -133,7 +133,7 @@ export default StyleSheet.create({
   searchBox: {
     borderWidth: 1,
     borderRadius: 12,
-    borderColor: colors.TiffanyBlue,
+    borderColor: colors.gray,
   },
 
   /**

@@ -10,7 +10,7 @@ import {
   ViewStyle,
 } from 'react-native';
 import colors from 'res/colors';
-import Theme from 'res/style/Theme';
+import Theme from 'res/Theme';
 
 interface ButtonIconProps {
   icon: ImageSourcePropType;

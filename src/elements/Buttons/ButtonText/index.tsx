@@ -1,4 +1,3 @@
-import {useTheme} from 'configs/ChangeTheme';
 import Text, {TextProps} from 'elements/Text';
 import React, {memo} from 'react';
 import {
@@ -10,7 +9,7 @@ import {
   ViewStyle,
 } from 'react-native';
 import colors from 'res/colors';
-import Theme from 'res/style/Theme';
+import Theme from 'res/Theme';
 
 interface ButtonTextProps {
   title?: string;
@@ -46,7 +45,6 @@ const ButtonText = memo(
     boderRadius,
     ...textProps
   }: ButtonTextProps) => {
-    const {theme} = useTheme();
     return (
       <TouchableOpacity
         disabled={disabled}
